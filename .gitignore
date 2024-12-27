@@ -1,0 +1,9 @@
+# Ignore the entire 'audios' directory
+/audios/
+
+# Ignore all WAV audio files
+*.wav
+
+# Ignore all MP3 audio files
+*.mp3
+
