@@ -1,5 +1,4 @@
 # Ignore the entire 'audios' directory
-/audios/
 
 # Ignore all WAV audio files
 *.wav
