@@ -53,8 +53,8 @@ def transcribe_audios_to_json(input_dir, output_file, model_name="medium", langu
 
 if __name__ == "__main__":
     # Example usage
-    input_directory = "audios"  # audio directory
-    output_json_file = "transcripts.json"  # JSON file path
+    input_directory = "tiktok_audios"  # audio directory
+    output_json_file = "audio_transcript.json"  # JSON file path
 
     print("Available Whisper models: tiny, base, small, medium, large")
     selected_model = input("Enter the Whisper model name you want to use (default: medium): ").strip() or "medium"
