@@ -6,4 +6,5 @@
 # Ignore all MP3 audio files
 *.mp3
 
-
+# ignore.env
+.env
