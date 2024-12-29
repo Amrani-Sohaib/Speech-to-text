@@ -117,7 +117,7 @@ def process_transcription_with_claude(transcription, model_name="claude-3-5-sonn
     user_prompt = (
         f"This is a transcription without punctuation and diacritics: \"{transcription}\".\n"
         "Please:\n"
-        "1. Add proper punctuation and diacritics, the  text should be clean from any character that might trouble JSON fromat like '' .\n"
+        "1. it is mandatory to Add proper punctuation and diacritics.\n"
         "2. Summarize the transcription in Arabic to create a title.\n"
         "Please respond only with a well-escaped single-line JSON object (no unescaped newlines in any text fields).”\n"
         "Respond **ONLY** with a JSON object in this format:\n"
